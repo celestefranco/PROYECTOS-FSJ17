@@ -1,0 +1,161 @@
+
+:root {
+    --primary: #05a79f;
+    --light: #F1F8FF;  
+    --black: #000000;  
+    --grey: #b4b4b4;
+}
+.back-to-top {
+    position: fixed;  
+    right: 30px;
+    bottom: 45px;
+    z-index: 99;
+}
+/** Apartado de index.html */
+.logo{
+    width: 100%;
+    height: 40px;
+}
+.a-text{
+    text-align: justify;
+}
+#about{
+    background: url(../img/stage.jpg) no-repeat;
+    background-size: cover;
+    background-position: center -100px;
+} 
+.fondo{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    width: 100%;
+    max-width: 450px;
+    height: 400px;
+    padding: 1rem;
+    margin:2rem 5rem;
+}
+
+/** Apartado de features.html */
+.img-fondo{
+    background: url(../img/dayne-topkin-y5_mFlLMwJk-unsplash.jpg) no-repeat;
+    background-position: center -250px;
+    background-size: cover;
+    height: 100vh;
+}
+.text-fondo{
+    margin-top: 120px;
+}
+
+/** Apartado de about.html */
+.img-about{
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+}
+.b-form{
+    background: var(--primary);
+    border-top: 4px solid var(--black);
+    color: var(--light);
+    margin: 0;
+    border-radius: 5px;
+}
+form{
+        margin:0px 60px;       
+       
+}
+input, textarea{	 
+    font-size: 16px;    
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+textarea{
+   min-height: 140px;
+   max-height: 150px;
+   max-width: 100%;
+}
+.tx-info{    
+    padding-left: 10rem;
+}
+.btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid var(--light);
+    border-radius: 35px;
+    transition: .3s;
+}
+.btn.btn-social:hover {
+    color: var(--primary);
+}
+
+ /** Apartado de footer */
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+.footer .footer-menu  a{
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+.footer .footer-menu a:hover {
+    color: var(--light);
+}
+
+/** Apartado de Media Query */
+@media (max-width: 570px){
+    .back-to-top {       
+        right: 5px;        
+    }
+
+    /** Apartado de index.html */
+    #features{
+        font-size:smaller;
+    }
+    .card{
+       margin: auto;
+    }    
+    #about{
+        background-position: center;
+    }
+    .fondo{
+        margin: auto;
+        padding: 5px;
+    }
+
+    /** Apartado de features.html */
+    .img-fondo{
+        background-position: center -10px;
+        height: 60vh;        
+    }
+    .img-fondo h1{
+        font-size: 30px;     
+    }
+
+    /** Apartado de about.html */
+    .tx-info{       
+        padding-left: 1px;
+    }
+
+     /** Apartado de footer */
+    .text-footer{
+        text-align: center;
+    }
+    .items-footer{
+        margin-left: 2rem;
+    }
+    .footer .btn.btn-social {
+        margin-bottom: 20px;  
+        margin-left:40px;
+    }
+    .footer .btn.btn-link {
+        display: flex;
+        flex-direction: column; 
+      }
+}
+
