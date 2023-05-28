@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/** Definiendo paleta de colores */
+:root{
+    --white: #fff;
+    --black: #0d0d0d;
+    --ligtblue: #2da9d7;
+    --blue: #080bcc;
+    --red: #fb5353;
+}
+*{
+  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/** Apartado index.html */
+header{
+  padding-top:60px; 
+  padding-bottom:39px;
+}
+header a{
+  max-width:200px; 
+  display:block; 
+  float:left;
+}
+.logo{
+  margin-left: 50px;
+}
+.text-nav{
+  font-weight: bold;
+}
+.TITULO{
+  padding-bottom:19px; 
+  padding-top:100px;
+}
+h1 { 
+  font-family: 'Open Sans', sans-serif;
+  font-size:50px; 
+  line-height:60px; 
+  color:var(--blue); 
+  font-weight:800;
+  padding-bottom:15px;
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size:30px; 
+  font-weight:500;
+  color: var(--blue);
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+    color: var(--black);
+    font-weight: 300;
+    font-weight: bold;
+}
+.text-card{
+  padding-top: 70px;
+}
+.card{ 
+  cursor: pointer;  
+}
+
+.formulario{
+  width: 70rem;
+  display: flex;
+  align-items: center;
+}
+.describe{
+  font-size: 20px;
+}
+.fcuadro{
+  margin-left: 10rem;  
+  width: 20rem;
+  text-align: center;
+}
+.fcuadros{
+  margin-left: 6rem;  
+  width: 10rem;
+  text-align: center;
+}
+.boton{
+   width: 200px;
+}
+.finput{
+  margin-left: 25rem;  
+  width: 20rem;
+  text-align: center;
+}
+.foption{
+  margin-left: 33rem; 
+  width: 50px;
+}
+.fopcion{
+  margin-left: 31rem; 
+  width: 130px;
+}
+.fopttion{
+  margin-left: 29rem; 
+  width: 200px;
+}
+
